@@ -1,0 +1,35 @@
+# Create a new folder
+# Open it in vs code
+# create a new venv by:
+# python -m venv venv
+# For activating virtual environment
+# source venv/Scripts/activate.bat
+# pip install -r requirements.txt
+# LangChain Core
+langchain
+langchain-core
+
+# OpenAI Integration
+langchain-openai
+openai
+
+# Anthropic Integration
+langchain-anthropic
+
+# Google Gemini (PaLM) Integration
+langchain-google-genai
+google-generativeai
+
+# Hugging Face Integration
+langchain-huggingface
+transformers
+huggingface-hub
+
+# Environment Variable Management
+python-dotenv
+
+# Machine Learning Utilities
+numpy
+scikit-learn
+
+pip freeze | grep streamlit >> requirements.txt
